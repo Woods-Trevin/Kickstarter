@@ -1,0 +1,12 @@
+.calendar-conatiner {
+  padding: 18px;
+  border: 1px solid #DCDEDD;
+}
+
+.calendar-label {
+  margin-bottom: 6px;
+}
+
+.calendar-input {
+  padding: 12px;
+}

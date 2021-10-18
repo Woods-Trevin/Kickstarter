@@ -1,0 +1,44 @@
+.form-background {
+  background-color: var(--body-background-color);
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  width: 400px;
+  height: 540px;
+  border: 0.8px solid #F1EEEA;
+  background-color: white;
+}
+
+
+.form-container > * {
+  margin-bottom: 18px;
+}
+
+.form-header {
+  font-size: 26px;
+}
+
+.input {
+  width: 338px;
+  padding: 12px;
+}
+
+/*Sign up page specific styles*/
+#form-signup-box {
+  height: 62px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 14px;
+  border: 0.8px solid #F1EEEA;
+}

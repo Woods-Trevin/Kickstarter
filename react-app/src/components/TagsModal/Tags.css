@@ -1,0 +1,73 @@
+.tags-container{
+  width:100vw;
+  height:100vh;
+  padding: 30px 50px;
+}
+
+.tags-header-inner{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  animation-duration:1s;
+  animation-name:slidein-head;
+}
+
+.tags-header-inner button{
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-style: bold;
+  animation-duration:1s;
+  animation-name:slidein-tags;
+}
+
+.tags-header-inner button:hover{
+  cursor: pointer;
+}
+
+.tags-list{
+  display:flex;
+  flex-direction: column;
+  animation-duration:1s;
+  animation-name:slidein-tags;
+}
+
+.tags-item{
+  width: fit-content;
+  font-size: 40px;
+  animation-duration:1s;
+  animation-name:fade;
+}
+
+
+
+@keyframes slidein-head {
+  from{
+    color: white;
+    margin-bottom: 120px;
+  }
+  to {
+    color: black;
+    margin-bottom: 20px;
+  }
+}
+
+
+@keyframes slidein-tags {
+  from{
+    margin-bottom: 120px;
+  }
+  to {
+    margin-bottom: 0px;
+  }
+}
+@keyframes fade {
+  from{
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}

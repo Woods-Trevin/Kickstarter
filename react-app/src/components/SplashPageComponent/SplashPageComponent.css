@@ -1,0 +1,345 @@
+.splash-page.main_container{
+    height: 1100px;
+    /* border: 2px solid rgb(136, 59, 59); */
+
+}
+
+.splashNav_container{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+
+}
+
+.splashNav{
+    /* border: 1px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #656969;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.featuredProj_outmost_container{
+    border-right: 1px solid rgba(0, 0, 0, 0.112);
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 30px;
+    width: 50%;
+    Height: 80%;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+.featuredProj_inner_container{
+    /* border: 1px solid black; */
+    height: 90%;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.featureItem{
+    /* border: 2px solid purple; */
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.featuredProject_label{
+    display: flex;
+    position: relative;
+    /* border: 2px solid green; */
+    color: #2828289f;
+        -webkit-font-smoothing: antialiased;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    top: 30px;
+    left: 10%;
+    width: 200px;
+
+}
+
+.featuredProject_img{
+    position: relative;
+    left: 10%;
+    top: 50px;
+    width: 80%;
+    height: 400px;
+}
+
+.featuredProject_video{
+    position: relative;
+    left: 10%;
+    top: 50px;
+    width: 80%;
+    height: 330px;
+}
+
+
+.featuredProject_title{
+    position: relative;
+    /* border: 4px solid red; */
+    left: 10%;
+    top: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #282828;
+        -webkit-font-smoothing: antialiased;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.featuredProject_title:hover{
+    text-decoration: underline;
+}
+
+.featuredProject_subTitle{
+    position: relative;
+    /* border: 4px solid red; */
+    font-size: 23px;
+    color: #656969;
+        -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+
+    left: 10%;
+    top: 90px;
+    width: 80%;
+    font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif;
+}
+
+.featuredProject_owner{
+    position: relative;
+    /* border: 4px solid red; */
+    font-size: 16px;
+    color: #656969;
+        -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+
+    left: 10%;
+    top: 120px;
+    width: 80%;
+    font-family: "Cooper Light", Georgia, Times, "Times New Roman", serif;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.recommended_outmost_container{
+    /* flex-basis: ; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid orange; */
+    position: relative;
+    float: right;
+    top: 60px;
+    /* left: 50px; */
+    width: 50%;
+    height: 80%;
+    color: #2828289f;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    /* font-weight: 500; */
+}
+
+.recommendedLabel_ctnr {
+    /* border: 2px solid black; */
+    font-weight: 400;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommendedTwo_ctnr {
+    /* border: 2px solid black; */
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+    padding-bottom: 30px;
+    width: 75%;
+    left: 15%;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommendedThree_ctnr{
+    /* border: 2px solid black; */
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+    padding-bottom: 30px;
+    width: 75%;
+    left: 15%;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommendedFour_ctnr{
+    /* border: 2px solid black; */
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.112);
+    padding-bottom: 30px;
+    width: 75%;
+    left: 15%;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommendedLabel {
+    position: relative;
+    left: 15%;
+    /* color: purple; */
+    font-weight: 550;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.recommended_img {
+    width: 200px;
+    height: 120px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+
+.recommended_title{
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    /* border: 2px solid purple; */
+    width: 300px;
+    font-size: 18px;
+    font-weight: 100px;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+.recommended_title:hover{
+    text-decoration: underline;
+
+
+}
+
+.recommended_goal {
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    /* border: 2px solid purple; */
+    color: rgb(3, 115, 98);
+    font-weight: 700;
+    width: 300px;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommended_owner{
+    color: rgba(0, 0, 0, 0.447);
+    font-weight: 400;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommended_owner:hover{
+    text-decoration: underline;
+
+}
+
+.rec_item{
+    position: relative;
+    /* border: 3px solid yellow; */
+    margin-top:10px;
+    top: 10%;
+    /* left: 10%; */
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+/*------------------------------------------------------------------------*/
+
+.accessory_ctnr{
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 120px;
+    top: 20px;
+
+}
+
+
+.bookmark_ctnr {
+    border: 2px solid rgba(0, 0, 0, 0.249);
+    border-radius: 50%;
+    width: 30px;
+    height: 28px;
+}
+
+.bookmark_ctnr:hover {
+    background-color: rgba(0, 0, 0, 0.249);
+    cursor: pointer;
+
+}
+
+.bookmark_btn{
+
+}
+
+.boomark_img{
+    position: relative;
+    top: 3px;
+    left: 5px;
+    width:15px;
+    height:18px;
+}
+
+
+.like_ctnr{
+    border: 2px solid rgba(0, 0, 0, 0.249);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+}
+
+.like_ctnr:hover{
+    background-color: rgba(0, 0, 0, 0.249);
+    cursor: pointer;
+}
+
+.like_btn{
+
+}
+
+.like_img{
+    position: relative;
+    top: 1px;
+    left: 1px;
+    width:18px;
+    height: 18px;
+}
+
+.dislike_ctnr{
+    border: 2px solid rgba(0, 0, 0, 0.249);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+
+}
+
+.dislike_ctnr:hover {
+    background-color: rgba(0, 0, 0, 0.249);
+    cursor: pointer;
+}
+
+
+.dislike_btn{
+
+}
+
+.dislike_img{
+    position: relative;
+    top: 3px;
+    left: 2px;
+    width:18px;
+    height: 18px;
+}

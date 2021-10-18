@@ -1,0 +1,87 @@
+.discover-container{
+  margin-bottom: 30px;
+}
+
+.discover-header{
+  width: 100vw;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+
+.discover-header-inner{
+  width: fit-content;
+  margin: 30px auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+}
+
+.discover-header-inner select{
+  border: none;
+  box-shadow: 0 0 5px rgb(145, 145, 145);
+  height: 40px;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 20px 0;
+}
+
+.discover-option{
+  padding: 10px;
+}
+.discover-results{
+  margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+  max-width: 80vw;
+  font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.discover-numproj{
+  padding-bottom: 30px;
+}
+
+.discover-results-cards-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.discover-card{
+  margin: 30px auto;
+  min-width: 300px;
+  max-width: 300px;
+  border: 1px solid lightgray;
+  padding-bottom: 15px;
+}
+
+.discover-card div:not(.discover-thumbnail, .discover-funding-info){
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.discover-title{
+  margin-top:10px;
+}
+
+.discover-desc{
+  font-size: 12px;
+  color: gray;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.discover-funding-info{
+  font-size: 14px;
+  color: rgb(82, 82, 82);
+}
+
+.discover-curr-pledge{
+  color: rgb(3, 115, 98);;
+}
+
+.discover-thumbnail{
+  width:100%;
+  height:165px;
+  object-fit:cover;
+  object-position:100%;
+}

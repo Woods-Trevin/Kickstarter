@@ -1,0 +1,11 @@
+.funding-goal-emoji {
+  height: 100%;
+  width: 70px;
+  text-align: center;
+  border: solid 1px #E8E8E8;
+  border-right: none;
+  padding: 12px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}

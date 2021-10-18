@@ -1,0 +1,11 @@
+.story-form-info-container {
+  width: 100%;
+}
+
+.story-form-info {
+  width: 50%;
+}
+
+.rich-text-editor {
+  word-wrap: break-word;
+}

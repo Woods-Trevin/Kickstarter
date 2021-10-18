@@ -1,0 +1,104 @@
+.FAQList_outmost_ctnr {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.FAQList_innermost_ctnr {
+    display: flex;
+    border: 2px solid lightgray;
+    background-color: white;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* height: 300px; */
+    width: 500px;
+    height: 500px;
+
+}
+
+/*------------------------------------------------*/
+
+.FAQ_Question_TF {
+    
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+    width: 400px;
+    font-size: 20px;
+
+}
+
+.questionLabel_ctnr {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.FAQ_question {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+}
+
+.FAQ_question:hover {
+    /* border: 2px solid green; */
+    background-color: lightgray;
+}
+
+/*------------------------------------------------*/
+
+.FAQ_Answer_TF {
+    margin-top: 50px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.answerLabel_ctnr {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.FAQ_answer {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+}
+
+.FAQ_answer:hover {
+    /* border: 2px solid green; */
+    background-color: lightgray;
+}
+
+/*--------------------------------------------------*/
+
+.FAQList_btn_ctnr {
+    margin-top: 50px;
+}
+
+.editBtn_container {
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.FAQ_editBtn {
+    /* border: 2px solid blue; */
+    background-color: rgb(4, 165, 109);
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.FAQ_editBtn:hover {
+    /* border: 2px solid blue; */
+    background-color: rgb(5, 99, 66);
+    color: white;
+    cursor: pointer;
+   
+}

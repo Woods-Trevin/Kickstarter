@@ -1,0 +1,95 @@
+.updates_outter_container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    /* background-color: black; */
+    /* gap: 50px; */
+}
+
+.updates_inner_container {
+    border: 2px solid grey;
+    background-color: white;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 830px;
+    margin-bottom: 50px;
+    align-items: flex-start;
+    /* z-index: 0; */
+}
+
+.updates_container{
+    /* border: 2px solid red; */
+}
+
+.updateBtn_container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.updates_deleteBtn{
+    /* border: 2px solid red; */
+    display: flex;
+    /* position: absolute; */
+    /* position: relative; */
+    align-items: center;
+    background-color: rgb(0, 158, 116);
+    color: white;
+    justify-content: center;
+    right: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.updates_deleteBtn:hover{
+    width: 150px;
+    height: 60px;
+
+}
+
+.updateInfo{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.updateNumber {
+    /* border: 2px solid goldenrod; */
+    /* position: absolute; */
+    bottom: 40px;
+    color: grey;
+    font-size: 20px;
+}
+
+
+.projectOwner{
+    /* border: 2px solid purple; */
+    font-size: 20px;
+
+    bottom: 20px;
+    width: 750px;
+    height: 45px;
+    border-bottom: 1px solid grey;
+
+}
+
+
+.projectTitle{
+    /* border: 2px solid orange; */
+    
+    width: 600px;
+    font-size: 40px;
+    
+}
+
+
+.projectDescription{
+    /* border: 2px solid blue; */
+    width: 600px;
+    
+    bottom: 40px;
+    height: 300px;
+}

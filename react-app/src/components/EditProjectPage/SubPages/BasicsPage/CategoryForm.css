@@ -1,0 +1,20 @@
+.category-form-dropdown {
+  display: flex;
+  align-items: center;
+  appearance: none;
+  height: 38px;
+  width: 100%;
+  cursor: pointer;
+  padding: 6px 5px;
+  background-color: white;
+  border: solid 0.8px rgb(220, 222, 221);
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.category-form-dropdown:hover {
+  border: solid 1px#282828;
+  /* transform: translateY(-1px); */ /*This was causing QoL problems; Drop down hit box would move being very annoying*/
+  transition: all 0.25s ease-in-out;
+}

@@ -1,0 +1,19 @@
+.start-drop-down {
+  appearance: none;
+  height: 54px;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.17);
+  padding: 12px 18px 12px 18px;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.start-drop-down:hover {
+  border: solid 1px#282828;
+  /* transform: translateY(-1px); */ /*This was causing QoL problems; Drop down hit box would move being very annoying*/
+  transition: all 0.25s ease-in-out;
+}

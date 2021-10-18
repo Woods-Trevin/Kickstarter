@@ -1,0 +1,33 @@
+.form-wrapper-border {
+  border: solid 1px#DCDEDD;
+}
+
+.form-wrapper-spacer {
+  display: flex;
+  padding: 48px 0;
+}
+
+.form-info-container {
+  padding: 0 18px;
+  width: calc(4/12 * 100%);
+  line-height: 24px;
+}
+
+.form-info-header {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.form-info {
+  font-size: 16px;
+  color: rgb(101, 105, 105);
+  margin-bottom: 20px
+}
+
+.form-wrapper-spacer-2 {
+  padding: 0 18px;
+  margin-left: calc(1/12 * 100%);
+  width: calc(7/12 * 100%);
+}

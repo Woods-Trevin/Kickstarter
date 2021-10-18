@@ -1,0 +1,52 @@
+.footer-container {
+  border-top: solid 1.6px black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Footer categories section*/
+.footer-tags-container {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  border-bottom: solid 1.6px rgb(220, 222, 221);
+}
+
+.footer-categories {
+  display: flex;
+  align-items: center;
+  left: 7%;
+  position: relative;
+  height: 70px;
+  width: 80%;
+}
+
+.footer-category-item {
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+/* Footer about us section*/
+.footer-item-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  width: 320px;
+  margin: 0px 18px;
+}
+
+.footer-item {
+  display: inline-block;
+}
+
+/* Footer legal section*/
+.footer-legal-container {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  border-top: solid 1.6px rgb(220, 222, 221);
+}

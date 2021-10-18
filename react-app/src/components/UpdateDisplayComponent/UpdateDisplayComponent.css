@@ -1,0 +1,139 @@
+
+.updateDisplay.outter_container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height:100%;
+    
+}
+
+.updateDisplay.inner_Container{
+    /* border: 2px solid black; */
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 800px;
+    margin-top: 15px;
+    margin-bottom: 100px; 
+}
+
+.updateDisplayBtn_ctnr {
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+
+.updateBtn.btn {
+    /* border: 1px solid purple; */
+    display: flex;
+    border-radius: 10px;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 150px;
+    height: 50px;
+    margin-top: -1px;
+    margin-bottom: 70px;
+}
+
+.updateBtn.editBtn {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-top: -1px;
+    margin-bottom: 70px;
+    margin-left: 60%;
+}
+
+.updateBtn.editBtn:hover { 
+    background-color: rgb(2, 136, 88);
+    color: white;
+    cursor: pointer;
+}
+
+
+.updateBtn.leftArrow {
+   /* position: relative; */
+   margin-right: 15px;
+}
+
+.item{
+    /* position: relative; */
+    /* border: 2px solid red; */
+    margin-bottom: 15px;
+
+}
+
+.updateDisplayNum{
+    color: rgba(128, 128, 128, 0.739);
+    width: 800px;
+}
+
+.updateDisplayTitle{
+    font-size: 32px;
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 800px;
+}
+
+.user_ctnr{
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.287);
+    width: 100%;
+}
+
+.updateDisplayUsername{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* height: fit-content; */
+
+
+
+.updateDisplayImg{
+    /* border: 2px solid red; */
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+
+.updateDisplayDescriptionCtnr {
+    /* border: 2px solid black; */
+    /* height: 1000px; */
+    margin-bottom: 150px;
+}
+
+.updateDisplayDescription{
+    margin-top: 20px;
+    height: 100%;
+    width: 800px;
+    /* height: 700px; */
+}
+
+.accessory_ctnr{
+    /* border: 1px solid red; */
+    
+}
+
+.creatorTag{
+    border: 2px solid white;
+    background-color: #05CE78;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width:65px;
+    margin-top: 14px;
+    margin-left: 5px;
+}

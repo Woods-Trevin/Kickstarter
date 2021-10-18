@@ -1,0 +1,70 @@
+/* TODO Add site wide styles */
+:root {
+  --nav-bar-height: 66px;
+  --body-background-color: #F7F7F6;
+}
+
+* {
+  margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+}
+
+a:hover {
+  color: rgb(3, 115, 98);
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary, .btn-delete, .btn-edit {
+  border: none;
+  transition: all 0.2s;
+  padding: 12px;
+  color: white;
+}
+
+.btn-primary:hover, .btn-delete:hover, .btn-edit:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: rgb(2, 136, 88);
+}
+
+.btn-delete {
+  background-color: rgb(209, 26, 42);
+}
+
+.btn-edit {
+  background-color: rgb(150, 150, 150)
+}
+
+.btn-primary:hover {
+  background-color: rgb(1, 87, 56);
+}
+
+.btn-delete:hover {
+  background-color: rgb(110, 20, 33);
+}
+
+.btn-edit:hover {
+  background-color: rgb(80, 80, 80)
+}

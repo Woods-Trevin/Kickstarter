@@ -1,0 +1,17 @@
+.start-text-area {
+  height: 80px;
+  width: 100%;
+  padding: 12px;
+  border: solid 1px #E8E8E8;
+  resize: none;
+  overflow: hidden;
+}
+
+.start-text-area:hover {
+  border-color: #009E74;
+}
+
+.start-text-area:focus {
+  border-color: black;
+  outline: none;
+}
